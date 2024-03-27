@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 
+//MARK: - Координатор приложения
 class AppCoordinator: Coordinator {
     
     let window: UIWindow
@@ -19,6 +20,9 @@ class AppCoordinator: Coordinator {
         self.window = window
     }
     func start() {
+        
+// Тут должно быть переключение между потоками но я его еще не написал
+        
 //        let authCoordinator = AuthCoordinator()
 //        authCoordinator.start()
 //        self.childCoordinators = [authCoordinator]

@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//MARK: - координатор регистрации
 class AuthCoordinator: Coordinator {
     
     var rootViewController = UIViewController()

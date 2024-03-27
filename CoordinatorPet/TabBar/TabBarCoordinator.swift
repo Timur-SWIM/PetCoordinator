@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//MARK: - координатор Таб Бара
 class TabBarCoordinator: Coordinator {
     
     var rootViewController = UITabBarController()
