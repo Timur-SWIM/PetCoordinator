@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  CoordinatorPet
 //
 //  Created by mac on 27.03.2024.
@@ -7,14 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .cyan
-        // Do any additional setup after loading the view.
+
+        
     }
-
-
+    
 }
-
