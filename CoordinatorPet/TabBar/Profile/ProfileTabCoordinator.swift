@@ -18,12 +18,22 @@ class ProfileTabCoordinator: Coordinator {
         rootViewController.navigationBar.prefersLargeTitles = true
     }
     lazy var profileViewController = {
-        let vc = UIHostingController(rootView: ProfileView())
+        let vc = UIHostingController(rootView: ProfileView(settingsRequested: { 
+             [weak self] in
+                self?.goToSettings()
+            
+        }))
         vc.title = "Profile"
+        
         return vc
     }()
     
     func start() {
         rootViewController.setViewControllers([profileViewController], animated: false)
+    }
+    
+    func goToSettings() {
+        let settingsViewController = UIHostingController(rootView: SettnigsView())
+        rootViewController.pushViewController(settingsViewController, animated: true)
     }
 }

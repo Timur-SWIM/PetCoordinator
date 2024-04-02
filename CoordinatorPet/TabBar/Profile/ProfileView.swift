@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ProfileView: View {
+    var settingsRequested: () -> ()
+    
     var body: some View {
-        Text("ProfileView")
+        Button("Settings") {
+            settingsRequested()
+        }
     }
 }
 
 #Preview {
-    ProfileView()
+    ProfileView(settingsRequested: { })
 }

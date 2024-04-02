@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Charts
 
 struct AuthView: View {
     
@@ -15,7 +16,7 @@ struct AuthView: View {
         VStack {
             Text("AuthView")
                 .font(.largeTitle)
-            .foregroundStyle(Color(.cyan))
+                .foregroundStyle(Color(.cyan))
             Button("Login") {
                 login()
             }

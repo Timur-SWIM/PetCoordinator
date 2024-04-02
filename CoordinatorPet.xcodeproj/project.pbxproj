@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0469E5DB2BB47C5400A2F4AB /* TrennigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469E5DA2BB47C5400A2F4AB /* TrennigView.swift */; };
+		0469E5DD2BB47C8300A2F4AB /* TreningCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469E5DC2BB47C8300A2F4AB /* TreningCoordinator.swift */; };
+		04941AAD2BBC470D00B9AB85 /* SettnigsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */; };
 		04CC263E2BB40DB40089851A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC263D2BB40DB40089851A /* AppCoordinator.swift */; };
 		04CC26462BB411100089851A /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC26452BB411100089851A /* AuthCoordinator.swift */; };
 		04CC26482BB4115C0089851A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC26472BB4115C0089851A /* AuthView.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0469E5DA2BB47C5400A2F4AB /* TrennigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrennigView.swift; sourceTree = "<group>"; };
+		0469E5DC2BB47C8300A2F4AB /* TreningCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreningCoordinator.swift; sourceTree = "<group>"; };
+		04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettnigsView.swift; sourceTree = "<group>"; };
 		04CC263D2BB40DB40089851A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		04CC26452BB411100089851A /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		04CC26472BB4115C0089851A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0469E5D92BB47C2E00A2F4AB /* Trenning */ = {
+			isa = PBXGroup;
+			children = (
+				0469E5DA2BB47C5400A2F4AB /* TrennigView.swift */,
+				0469E5DC2BB47C8300A2F4AB /* TreningCoordinator.swift */,
+			);
+			path = Trenning;
+			sourceTree = "<group>";
+		};
 		04CC26432BB410D90089851A /* Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +80,7 @@
 		04CC26442BB410E70089851A /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				0469E5D92BB47C2E00A2F4AB /* Trenning */,
 				04CC264C2BB414DE0089851A /* Main */,
 				04CC264B2BB414D40089851A /* Profile */,
 				04CC26492BB414930089851A /* TabBarCoordinator.swift */,
@@ -77,6 +93,7 @@
 			children = (
 				04CC264F2BB415190089851A /* ProfileTabCoordinator.swift */,
 				04CC26512BB416740089851A /* ProfileView.swift */,
+				04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -109,16 +126,16 @@
 		04FFB6752BB3832A00E18B0A /* CoordinatorPet */ = {
 			isa = PBXGroup;
 			children = (
+				04CC263D2BB40DB40089851A /* AppCoordinator.swift */,
+				04FFB6762BB3832A00E18B0A /* AppDelegate.swift */,
+				04FFB6782BB3832A00E18B0A /* SceneDelegate.swift */,
 				04CC26442BB410E70089851A /* TabBar */,
 				04CC26432BB410D90089851A /* Auth */,
 				04FFB68A2BB3859300E18B0A /* Protocol */,
-				04FFB6762BB3832A00E18B0A /* AppDelegate.swift */,
-				04FFB6782BB3832A00E18B0A /* SceneDelegate.swift */,
 				04FFB67A2BB3832B00E18B0A /* ViewController.swift */,
 				04FFB67F2BB3832D00E18B0A /* Assets.xcassets */,
 				04FFB6812BB3832D00E18B0A /* LaunchScreen.storyboard */,
 				04FFB6842BB3832D00E18B0A /* Info.plist */,
-				04CC263D2BB40DB40089851A /* AppCoordinator.swift */,
 			);
 			path = CoordinatorPet;
 			sourceTree = "<group>";
@@ -205,9 +222,12 @@
 				04FFB67B2BB3832B00E18B0A /* ViewController.swift in Sources */,
 				04CC263E2BB40DB40089851A /* AppCoordinator.swift in Sources */,
 				04CC26542BB416D10089851A /* MainViewController.swift in Sources */,
+				04941AAD2BBC470D00B9AB85 /* SettnigsView.swift in Sources */,
 				04CC264E2BB415070089851A /* MainTabCoordinator.swift in Sources */,
+				0469E5DB2BB47C5400A2F4AB /* TrennigView.swift in Sources */,
 				04CC26522BB416740089851A /* ProfileView.swift in Sources */,
 				04FFB6772BB3832A00E18B0A /* AppDelegate.swift in Sources */,
+				0469E5DD2BB47C8300A2F4AB /* TreningCoordinator.swift in Sources */,
 				04CC26462BB411100089851A /* AuthCoordinator.swift in Sources */,
 				04CC264A2BB414940089851A /* TabBarCoordinator.swift in Sources */,
 				04CC26502BB415190089851A /* ProfileTabCoordinator.swift in Sources */,
@@ -363,7 +383,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,7 +411,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
