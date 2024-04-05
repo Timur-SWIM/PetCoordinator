@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		0469E5DB2BB47C5400A2F4AB /* TrennigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469E5DA2BB47C5400A2F4AB /* TrennigView.swift */; };
 		0469E5DD2BB47C8300A2F4AB /* TreningCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469E5DC2BB47C8300A2F4AB /* TreningCoordinator.swift */; };
-		04941AAD2BBC470D00B9AB85 /* SettnigsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */; };
+		04847ACA2BBF240300BA8542 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04847AC92BBF240300BA8542 /* PlannerView.swift */; };
+		04941AAD2BBC470D00B9AB85 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04941AAC2BBC470D00B9AB85 /* SettingsView.swift */; };
 		04CC263E2BB40DB40089851A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC263D2BB40DB40089851A /* AppCoordinator.swift */; };
 		04CC26462BB411100089851A /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC26452BB411100089851A /* AuthCoordinator.swift */; };
 		04CC26482BB4115C0089851A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC26472BB4115C0089851A /* AuthView.swift */; };
@@ -29,7 +30,8 @@
 /* Begin PBXFileReference section */
 		0469E5DA2BB47C5400A2F4AB /* TrennigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrennigView.swift; sourceTree = "<group>"; };
 		0469E5DC2BB47C8300A2F4AB /* TreningCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreningCoordinator.swift; sourceTree = "<group>"; };
-		04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettnigsView.swift; sourceTree = "<group>"; };
+		04847AC92BBF240300BA8542 /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		04941AAC2BBC470D00B9AB85 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		04CC263D2BB40DB40089851A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		04CC26452BB411100089851A /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
 		04CC26472BB4115C0089851A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -93,7 +95,8 @@
 			children = (
 				04CC264F2BB415190089851A /* ProfileTabCoordinator.swift */,
 				04CC26512BB416740089851A /* ProfileView.swift */,
-				04941AAC2BBC470D00B9AB85 /* SettnigsView.swift */,
+				04941AAC2BBC470D00B9AB85 /* SettingsView.swift */,
+				04847AC92BBF240300BA8542 /* PlannerView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -222,9 +225,10 @@
 				04FFB67B2BB3832B00E18B0A /* ViewController.swift in Sources */,
 				04CC263E2BB40DB40089851A /* AppCoordinator.swift in Sources */,
 				04CC26542BB416D10089851A /* MainViewController.swift in Sources */,
-				04941AAD2BBC470D00B9AB85 /* SettnigsView.swift in Sources */,
+				04941AAD2BBC470D00B9AB85 /* SettingsView.swift in Sources */,
 				04CC264E2BB415070089851A /* MainTabCoordinator.swift in Sources */,
 				0469E5DB2BB47C5400A2F4AB /* TrennigView.swift in Sources */,
+				04847ACA2BBF240300BA8542 /* PlannerView.swift in Sources */,
 				04CC26522BB416740089851A /* ProfileView.swift in Sources */,
 				04FFB6772BB3832A00E18B0A /* AppDelegate.swift in Sources */,
 				0469E5DD2BB47C8300A2F4AB /* TreningCoordinator.swift in Sources */,

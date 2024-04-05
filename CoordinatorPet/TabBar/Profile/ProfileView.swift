@@ -8,15 +8,32 @@
 import SwiftUI
 
 struct ProfileView: View {
-    var settingsRequested: () -> ()
+    
+    var actionRequested: (settings: () -> (), planner: () -> ())
     
     var body: some View {
-        Button("Settings") {
-            settingsRequested()
+        VStack {
+            Button("Settings") {
+                goToSettings(actionRequested: actionRequested.settings)
+            }
+            Button("Planner") {
+                goPlanner {
+                    actionRequested.planner()
+                }
+            }
         }
     }
 }
 
-#Preview {
-    ProfileView(settingsRequested: { })
+func goToSettings(actionRequested: () -> ()) {
+    actionRequested()
 }
+
+func goPlanner(actionRequested: () -> ()) {
+    actionRequested()
+}
+
+#Preview {
+    ProfileView(actionRequested: (settings: {}, planner: {}))
+}
+
